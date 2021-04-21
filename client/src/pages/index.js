@@ -1,0 +1,18 @@
+import Login from './Login'
+import LoginStaff from './LoginStaff'
+import Register from './Register'
+import RegisterStaff from './RegisterStaff'
+import Report from './Report'
+import Admin from './Admin'
+import Admindex from './Admindex'
+import ReportIndex from './ReportIndex'
+import ReportIndexStaff from './ReportIndexStaff'
+import ReportHistory from './ReportHistory'
+import ReportHistoryStaff from './ReportHistoryStaff'
+import UserList from './UserList'
+import StaffList from './StaffList'
+import StaffIndex from './IndexStaff'
+import ReportOngoing from './ReportOngoing'
+import EditUser from './EditUser'
+
+export {Admin, Login, LoginStaff, Register, RegisterStaff, Report, Admindex, ReportIndex, ReportIndexStaff, ReportHistory, ReportHistoryStaff, UserList, StaffList, StaffIndex, ReportOngoing, EditUser }

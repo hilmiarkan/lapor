@@ -1,0 +1,157 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.side-photo {
+  background: url(../assets/kitten.jpg) top 50% left 50% / cover no-repeat
+    border-box;
+}
+
+.space-between__h3-logo {
+  margin-top: 0.375rem;
+}
+
+.space-between__label-h3 {
+  margin-top: 1.563rem;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding__top-bottom {
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+}
+
+.space-between__viewport-logo {
+  margin-top: 2rem;
+}
+
+.space-between__viewport-logo2 {
+  margin-top: 6.25rem;
+}
+
+.brand-size {
+  width: 50px;
+}
+
+.space-between__main-brand {
+  margin-left: 2rem !important;
+}
+
+.margin-card {
+  margin-left: 1.5rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom__1rem {
+  margin-bottom: 1rem;
+}
+
+.margin-top__1rem {
+  margin-top: 1rem;
+}
+
+.margin-top__3rem {
+  margin-top: 3rem;
+}
+
+.margin-top__5rem {
+  margin-top: 5rem;
+}
+
+.margin-top__7rem {
+  margin-top: 7rem;
+}
+
+.margin-top__12rem {
+  margin-top: 12rem;
+}
+
+.space-between__viewport-brand {
+  margin-top: 8rem;
+}
+
+.margin-left__1rem {
+  margin-left: 1rem;
+}
+
+.margin-left__3rem {
+  margin-left: 3rem;
+}
+
+.width-card {
+  width: 18rem !important; 
+}
+
+.margin-left__5rem {
+  margin-left: 5rem !important;
+}
+
+.larger-font-size {
+  font-size: 1.4rem;
+}
+
+.smooth-shadow {
+  box-shadow:
+  0 0.8px 6.3px rgba(0, 0, 0, 0.014),
+  0 1.9px 15.2px rgba(0, 0, 0, 0.02),
+  0 3.6px 28.5px rgba(0, 0, 0, 0.025),
+  0 6.5px 50.9px rgba(0, 0, 0, 0.03),
+  0 12.1px 95.3px rgba(0, 0, 0, 0.036),
+  0 29px 228px rgba(0, 0, 0, 0.05)
+;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.space-between__admin-header {
+  margin-top: 8rem;
+}
+
+.list-user-overflow {
+  overflow-y: hidden !important;
+}
+
+.userlist-button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #exclude-print {
+    visibility: hidden;
+    display: none;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
