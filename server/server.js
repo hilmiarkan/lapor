@@ -7,6 +7,7 @@ const express = require('express'),
 
 app.use(express.json()).use(express.urlencoded({extended: true})).use(cors())
 // Init Connection To Database
+// Test Commit
 const db = mysql.createConnection(config);
 
 db.connect((err)=> {
