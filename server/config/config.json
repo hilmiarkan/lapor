@@ -1,7 +1,7 @@
 {
   "host": "localhost",
   "user": "root",
-  "port": "3333",
+  "port": "3308",
   "password": "",
-  "database": "ukk"
+  "database": "okeoce"
 }
